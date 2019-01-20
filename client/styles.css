@@ -1,0 +1,27 @@
+html {
+  background-color: #ffe1e1;
+}
+
+body {
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.loading {
+  text-align: center;
+}
+
+.error {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Oinker! 🐷</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="skeleton.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Oinker! - Twitter for pigs 🐷</h1>
+  </header>
+  <main>
+    <form class="oink-form">
+      <label for="name">Name</label>
+      <input class="u-full-width" type="text" id="name" name="name">
+      <label for="content">Message</label>
+      <textarea class="u-full-width" type="text" id="content" name="content"></textarea>
+      <button type="submit" class="button-primary u-full-width">Submit Oink!</button>
+    </form>
+    <div class="loading">
+      <img src="loading.gif" alt="Loading">
+    </div>
+    <div class="error">
+      <h3>Hey! Name and message are both required.</h3>
+      <button class="back" type="button">Go back</button>
+    </div>
+  </main>
+  <script src="client.js"></script>
+</body>
+
+</html>
